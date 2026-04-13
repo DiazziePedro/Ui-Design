@@ -7,8 +7,7 @@ main{
 section{
     width: 100%;
     height: 70%;
-    background: red;
-}
+    background: linear-gradient(90deg, #ffffff, #ebc1ff); }
 section img{
     height: 30.7vh;
     border-radius: 10px;
@@ -22,6 +21,14 @@ h1{
     align-items: center;
     justify-content: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+    width: 80%;
+    height: 40vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 10%;
+    text-align: center;
+    justify-content: center;
 }
 footer{
     width: 100%;
