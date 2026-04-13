@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import databaseImg from './assets/database.png'
 import './App.css'
 
 function App() {
@@ -9,8 +9,14 @@ function App() {
     <>
   <main>
     <section>
-      
+      <img src={databaseImg} alt="" />
+      <div>
+        <h1>
+          Data protection
+        </h1>
+      </div>
     </section>
+   
     <footer>
       
     </footer>
